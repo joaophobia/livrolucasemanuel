@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang=“pt-BR”>
+
+<head>
+    <meta charset=“UTF-8” />
+    <title>Fala bicho!</title>
+    <style>
+        form {
+            font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+        }
+
+        fieldset {
+            margin-top: 1px;
+            border: 2px solid rgba(31, 50, 112, 0.3);
+        }
+
+        legend {
+            font-weight: bolder;
+            padding: 5px;
+            color: darkblue;
+            font-size: small;
+        }
+
+        p {
+            line-height: 40px;
+            margin: 0;
+            padding: 2px;
+        }
+
+        label {
+            width: 10%;
+            display: block;
+            float: left;
+            text-align: right;
+            margin-right: 5px;
+            padding: 2px;
+        }
+
+        input {
+            border: none;
+            width: 85%;
+            padding: 7px;
+            border-bottom: 2px solid rgba(31, 50, 112, 0.3);
+            background-color: rgba(31, 50, 112, 0.03);
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <nav></nav>
+        <header></header>
+        <hr />
+        <section>
+
+            <article>
+                <h2>Fala “bicho”</h2>
+                <form action="" method="post">
+                    <fieldset>
+                        <legend>Dados pessoais</legend>
+                        <p>
+                            <label for="nome">Nome:</label>
+                            <input type="text" name="nome" id="nome" placeholder="Digite seu nome aqui." autofocus
+                                required />
+                        </p>
+                        <p>
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email" placeholder="Digite seu email aqui." required />
+                        </p>
+                        <p>
+                            <label for="wpp">WhatsApp</label>
+                            <input type="tel" name="wpp" id="wpp" placeholder="Digite seu WhatsAp aqui." required />
+                        </p>
+                        <p>
+                            Autoriza o contato via WhatsApp?
+                            <br />
+                            <input type="radio" name="autorizawpp" id="autorizawppS" checked />
+                            <label for="autorizawpp">Sim</label>
+                            <input type="radio" name="autorizawpp" id="autorizawppN" />
+                            <label for="autorizawpp">Não</label>
+                        </p>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Informações sobre</legend>
+                        <p>
+                            <input type="checkbox" name="infos" id="info1" value="infodata" checked />
+                            Adoção de pets
+                            <br />
+                            <input type="checkbox" name="infos" id="info2" value="infodicas" />
+                            Dicas e Cuidados
+                            <br />
+                            <input type="checkbox" name="infos" id="info3" value="infoparceiro" />
+                            Ongs e Parceiros pets
+                            <br />
+                            <input type="checkbox" name="infos" id="info4" value="infodefende" />
+                            Defesa dos animais
+                            <br />
+                        </p>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Sugestões e comentários</legend>
+                        <p>
+                            <label for="comentarios">Sugestões</label>
+                            <br />
+                            <textarea name="comentarios" id="comentarios" cols="60" rows="6"
+                                placeholder="Digite aqui suas sugestões, elogios e outros comentários.">
+
+                            </textarea>
+                        </p>
+                    </fieldset>
+                </form>
+            </article>
+        </section>
+        <hr />
+        <footer>
+            <h6>Desenvolvido por Bicho Amigo&reg; &#129409;</h6>
+        </footer>
+    </main>
+
+</body>
+
+</html>
