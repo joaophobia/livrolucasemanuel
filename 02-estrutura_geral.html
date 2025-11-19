@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,73 +11,139 @@
       background-size: 50px;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
+
     main {
       background-color: rgba(255, 255, 255, 0.9);
+      width: 1024px;
+      padding: 10px;
+      margin: auto;
     }
-    h1, h2 {
+
+    h1,
+    h2 {
       background-color: rgb(200, 220, 255);
       color: darkblue;
     }
+
+    h5{
+      color: #666;
+      text-align: center;
+    }
+
     h6 {
       color: #666;
     }
+
     main {
-        background-color: rgba(255, 255, 255, 0.9);
-        width: 1024px;
-        padding: 10px;
-        margin: auto;
+      background-color: rgba(255, 255, 255, 0.9);
+      width: 1024px;
+      padding: 10px;
+      margin: auto;
     }
+
     nav ul {
-        height: 38px;
-        list-style: none;
-        padding: 0;
-        border: 2px solid rgba(31, 50, 112, 0.3);
-        background-color: #fff;
+      height: 38px;
+      list-style: none;
+      padding: 0;
+      border: 2px solid rgba(31, 50, 112, 0.3);
+      background-color: #fff;
     }
+
     nav ul li {
-        float: left;
-        border-left: 1px solid rgba(31, 50, 112, 0.3);
-        border-right: 1px solid rgba(31, 50, 112, 0.3);
+      float: left;
+      border-left: 1px solid rgba(31, 50, 112, 0.3);
+      border-right: 1px solid rgba(31, 50, 112, 0.3);
     }
+
     nav ul li a {
-    color: darkblue;
-    text-decoration: none;
-    font-size: 1.2em;
-    padding: 8px 55px;
-    line-height: 2em;
-    text-align: center;    
+      color: darkblue;
+      text-decoration: none;
+      font-size: 1.2em;
+      padding: 8px 55px;
+      line-height: 2em;
+      text-align: center;
     }
+
     aside {
-        float: right;
-        background-color: #fff;
-        padding: 15px;
-        color: darkblue;
-        border: 1px solid rgba(31, 50, 112, 0.3);
-        border-radius: 5% 20%;
+      float: right;
+      background-color: #fff;
+      padding: 15px;
+      color: darkblue;
+      border: 1px solid rgba(31, 50, 112, 0.3);
+      border-radius: 5% 20%;
     }
+
     aside img {
-        width: 32px;
-        padding: 3px;
+      width: 32px;
+      padding: 3px;
     }
+
     aside a {
-        text-decoration: none;
+      text-decoration: none;
     }
+
     nav ul li:first-child {
-        border-left: none;
+      border-left: none;
     }
-    nav ul li:nth-last-child {
-        border-right: none;
+
+    nav ul li:last-child {
+      border-right: none;
     }
+
     nav ul li a:hover {
-        background-color: darkblue;
-        color: #fff;
+      background-color: darkblue;
+      color: #fff;
     }
+
     aside a:hover {
-        background-color: rgba(31, 50, 112, 0.3);
+      background-color: rgba(31, 50, 112, 0.3);
+    }
+    footer {
+      text-align: center;
+    }
+    form {
+      font-family: gotham, "helvetica Neue", Arial, Helvetica, "sans-serif";
+    }
+
+    fieldset{
+      margin-top: 10px;
+      border: 2px solid rgba(31, 50, 112, 0.3);
+      padding-left: 20px;
+      border-radius: 20px;
+    }
+    legend{
+      font-weight: bolder;
+      padding: 5px;
+      color: darkblue;
+      font-size: small;
+    }
+    p{
+      line-height: 20px;
+    }
+    label [for="nome"], 
+    [for="email"], 
+    [for="wpp"]  {
+      width: 10%;
+      display: block;
+      float: left;
+      text-align: right;
+      margin-right: 5px;
+      padding: 2px;
+    }
+    input [name="nome"],
+     [name="email"],
+     [name="wpp"] {
+      border: none;
+      width: 85%;
+      padding: 8px;
+      border-bottom: 2px solid rgba(31, 50, 112, 0.3);
+      background-color: rgba(31, 50, 112, 0.3);
     }
   </style>
 </head>
+
 <body>
+  <link rel="stylesheet" href="estilo_projeto.css" />
   <main>
     <nav>
       <ul>
@@ -88,28 +155,59 @@
       </ul>
     </nav>
     <header>
-        <aside>
-            nos acompanhe:
-            <br />
-            <a href="https://www.facebook.com/senacsaopaulo"target="_blank">
-                <img src="square-facebook-brands-solid.svg" alt="facebook" />
-            </a>
-            <a href=“https://www.instagram.com/senacsaopaulo/” target=“_blank”>
-                <img src="square-instagram-brands-solid.svg" alt="instagram" />
-                </a>
-                <a href="https://www.youtube.com/user/senacsaopaulo"target="_blank">
-                    <img src="square-youtube-brands-solid.svg" alt="youtube" />
-                </a>
-        </aside>
+      <aside>
+        nos acompanhe:
+        <br />
+        <a href="https://www.facebook.com/senacsaopaulo" target="_blank">
+          <img src="square-facebook-brands-solid.svg" alt="facebook" />
+        </a>
+        <a href=“https://www.instagram.com/senacsaopaulo/” target=“_blank”>
+          <img src="square-instagram-brands-solid.svg" alt="instagram" />
+        </a>
+        <a href="https://www.youtube.com/user/senacsaopaulo" target="_blank">
+          <img src="square-youtube-brands-solid.svg" alt="youtube" />
+        </a>
+      </aside>
       <h1>Seja Bem-vindo!</h1>
-      <p>É um prazer tê-lo conosco!</p>
+      <p class="">É um prazer tê-lo conosco!</p>
     </header>
     <hr />
     <section>
       <article>
+        <h1>Conheça nosso Petshop</h1>
+        <div class="quadros" id="missao">
+          <h1>Missão</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quis alias pariatur. Quos, cupiditate
+            culpa repellendus labore corrupti sint quis laudantium praesentium, molestias ducimus est quae totam?
+            Delectus, recusandae repellat.
+          </p>
+        </div>
+        <h1>Conheça nosso Petshop</h1>
+        <div class="quadros" id="visao">
+          <h1>Visão</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quis alias pariatur. Quos, cupiditate
+            culpa repellendus labore corrupti sint quis laudantium praesentium, molestias ducimus est quae totam?
+            Delectus, recusandae repellat.
+          </p>
+        </div>
+        <h1>Conheça nosso Petshop</h1>
+        <div class="quadros" id="valores">
+          <h1>Valores</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quis alias pariatur. Quos, cupiditate
+            culpa repellendus labore corrupti sint quis laudantium praesentium, molestias ducimus est quae totam?
+            Delectus, recusandae repellat.
+          </p>
+        </div>
+        <h5>Venha com seu Pet fazer uma visita.</h5>
+      </article>
+      <article>
         <h2>PetShop Meu Amigo Bicho</h2>
         <p>Temos produtos maravilhosos e o <b>melhor atendimento</b>
-        <i>especialmente para você</i> e seu <strong>amigo bicho</strong></p>
+          <i>especialmente para você</i> e seu <strong>amigo bicho</strong>
+        </p>
       </article>
     </section>
     <hr />
@@ -118,4 +216,5 @@
     </footer>
   </main>
 </body>
+
 </html>

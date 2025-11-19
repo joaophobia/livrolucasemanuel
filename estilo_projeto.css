@@ -1,0 +1,11 @@
+.quadros{
+    background-color: rgba(31, 50n, 112, 0.03);
+    width: 28%;
+    border: 3px solid darkblue;
+    padding: 1%;
+    margin: 0 0 20px 2%;
+    float: left;
+}
+#visao{
+    background-color: rgba(31, 50n, 112, 0.3);
+}
